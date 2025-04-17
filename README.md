@@ -6,6 +6,16 @@ step run :
 - set localization -> change language (required)
 ![alt text](image.png)
 
+TODO:
+update these files go to the current theme
+- template.ftl      // common layout 
+- login-reset-password.ftl
+- login-page-expired.ftl
+- update theme.properties
+- messages
+- resources
+
+
 - set theme
  my-custom-theme
 
@@ -16,11 +26,3 @@ login-page-expired.ftl
 ![alt text](image-2.png)
 
 
-TODO:
-update these files go to the current theme
-- template.ftl      // common layout 
-- login-reset-password.ftl
-- login-page-expired.ftl
-- update theme.properties
-- messages
-- resources
