@@ -1,9 +1,9 @@
 TODO:
 
-- set localization -> change language (required)
+1. Set localization -> change language (required)
 ![alt text](image.png)
 
-- update these files go to the current theme
+2. Update these files to the current theme folder
     - template.ftl      // common layout 
     - login-reset-password.ftl
     - login-page-expired.ftl
@@ -14,8 +14,8 @@ TODO:
 
 
 
-/////////////
-step run local:
+
+-----step run local: ------
 - docker build -t keycloak-theme .
 - docker run -p 8080:8080 -e KEYCLOAK_ADMIN=admin -e KEYCLOAK_ADMIN_PASSWORD=admin keycloak-theme start-dev
 
