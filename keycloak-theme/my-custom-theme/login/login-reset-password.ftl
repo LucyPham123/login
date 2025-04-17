@@ -13,6 +13,8 @@
         <div class="right-content">
             <div class="login-container">
                 <div class="text-header">${msg("welcome")}</div>
+                <!-- check update url action like devexa when apply
+                EG : https://devexa.devexperts.com/auth/realms/Devexa/login-actions/required-action?session_code=U8LMJLCn68qlCGqlgcFPbSvtQY2yJ9KEIKy5q4l4-n0&execution=UPDATE_PASSWORD&client_id=web-admin-backend&tab_id=KM5_XmL1TrE -->
                 <form action="${url.loginAction}" method="post" class="login-form">
                     <div class="form-group">
                         <label for="createPassword">${msg("createPassword")}</label>
