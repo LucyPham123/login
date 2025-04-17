@@ -23,14 +23,6 @@
 
 <body>
     <h1>${msg("errorTitle")}</h1>
-    <div class="content">
-        <#if message?? && message.summary??>
-            <p>${message.summary?no_esc}</p>
-        <#else>
-        <p>${msg("unexpectedErrorMessage")}</p>
-        </#if>
-        <p><a href="${properties.logoUrl!" /"}">${kcSanitize(msg("backToApplication"))?no_esc}</a></p>
-    </div>
 </body>
 
 </html>

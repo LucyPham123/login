@@ -14,3 +14,13 @@ login-reset-password.ftl
 
 login-page-expired.ftl
 ![alt text](image-2.png)
+
+
+TODO:
+update these files go to the current theme
+- template.ftl      // common layout 
+- login-reset-password.ftl
+- login-page-expired.ftl
+- update theme.properties
+- messages
+- resources
