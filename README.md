@@ -3,7 +3,7 @@ step run :
 - docker build -t keycloak-theme .
 - docker run -p 8080:8080 -e KEYCLOAK_ADMIN=admin -e KEYCLOAK_ADMIN_PASSWORD=admin keycloak-theme start-dev
 
-- set localization -> change language
+- set localization -> change language (required)
 ![alt text](image.png)
 
 - set theme
