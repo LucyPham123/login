@@ -1,5 +1,4 @@
 <#-- template.ftl -->
-
     <div class="dropdown-wrapper" id="localeDropdown">
         <div class="dropdown" id="dropdownToggle">
             <img src="${url.resourcesPath}/assets/${locale.current}.svg" alt="${locale.current}" />
@@ -47,6 +46,7 @@
         function changeLocale(value) {
             const url = new URL(window.location.href);
             url.searchParams.set('kc_locale', value);
+            window.currentLocale = value;
             window.location.href = url.toString();
         }
     </script>
